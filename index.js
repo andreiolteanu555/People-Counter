@@ -6,7 +6,7 @@ function increment() {
     count += 1
     countEl.textContent = count
 }
-window.increment = increment
+
 
 function save() {
     let countStr = count + " - "
@@ -14,4 +14,3 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
-window.save = save
